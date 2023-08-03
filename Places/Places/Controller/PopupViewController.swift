@@ -8,33 +8,27 @@
 import UIKit
 import RealmSwift
 
-class PopUpViewController: UIViewController {
+class PopupViewController: UIViewController {
     
     let realm = try! Realm()
+    
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var descTextView: UITextView!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
     @IBAction func saveConfirmed(_ sender: UIButton) {
         dismiss(animated: true)
-        let newMark = Landmark()
-        newMark.name = nameTextField.text!
-        newMark.desc = descTextView.text
-        
+        let newLandMark = Landmark()
+        newLandMark.name = nameTextField.text!
+        newLandMark.desc = descTextView.text!
+        newLandMark.lat = Places.shared.userLat
+        newLandMark.lon = Places.shared.userLon
         try! realm.write{
-            realm.add(newMark)
+            realm.add(newLandMark)
         }
-        
-       
     }
-    
-
 }

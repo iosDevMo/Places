@@ -16,7 +16,7 @@
 		CDD75F702A72827800271598 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F6F2A72827800271598 /* PlacesViewController.swift */; };
 		CDD75F732A7291B500271598 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F712A7291B500271598 /* PlaceCell.swift */; };
 		CDD75F742A7291B500271598 /* PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD75F722A7291B500271598 /* PlaceCell.xib */; };
-		CDD75F762A7598A500271598 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F752A7598A500271598 /* PopUpViewController.swift */; };
+		CDD75F762A7598A500271598 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F752A7598A500271598 /* PopupViewController.swift */; };
 		CDD75F782A759C6B00271598 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F772A759C6B00271598 /* Landmark.swift */; };
 		CDD75F7A2A759D6000271598 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD75F792A759D6000271598 /* Places.swift */; };
 		CDD75F7D2A75A41600271598 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CDD75F7C2A75A41600271598 /* Realm */; };
@@ -35,7 +35,7 @@
 		CDD75F6F2A72827800271598 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		CDD75F712A7291B500271598 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		CDD75F722A7291B500271598 /* PlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCell.xib; sourceTree = "<group>"; };
-		CDD75F752A7598A500271598 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		CDD75F752A7598A500271598 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		CDD75F772A759C6B00271598 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		CDD75F792A759D6000271598 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,11 +104,11 @@
 		CDD75F6C2A72821400271598 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CDD75F6F2A72827800271598 /* PlacesViewController.swift */,
+				CDD75F6D2A72825F00271598 /* MapViewController.swift */,
+				CDD75F752A7598A500271598 /* PopupViewController.swift */,
 				CDD75F562A727E7D00271598 /* AppDelegate.swift */,
 				CDD75F582A727E7D00271598 /* SceneDelegate.swift */,
-				CDD75F6D2A72825F00271598 /* MapViewController.swift */,
-				CDD75F6F2A72827800271598 /* PlacesViewController.swift */,
-				CDD75F752A7598A500271598 /* PopUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD75F702A72827800271598 /* PlacesViewController.swift in Sources */,
-				CDD75F762A7598A500271598 /* PopUpViewController.swift in Sources */,
+				CDD75F762A7598A500271598 /* PopupViewController.swift in Sources */,
 				CDD75F782A759C6B00271598 /* Landmark.swift in Sources */,
 				CDD75F732A7291B500271598 /* PlaceCell.swift in Sources */,
 				CDD75F572A727E7D00271598 /* AppDelegate.swift in Sources */,

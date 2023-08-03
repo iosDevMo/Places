@@ -70,7 +70,7 @@
                         <barButtonItem key="rightBarButtonItem" title="save" id="mhR-B8-uwq">
                             <connections>
                                 <action selector="savePressed:" destination="WV3-RJ-gKp" id="y9g-xa-ChS"/>
-                                <segue destination="mWX-su-c65" kind="popoverPresentation" popoverAnchorBarButtonItem="mhR-B8-uwq" id="ZvZ-lX-4Cp">
+                                <segue destination="mWX-su-c65" kind="popoverPresentation" popoverAnchorBarButtonItem="mhR-B8-uwq" id="lnj-rc-a3K">
                                     <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                 </segue>
                             </connections>
@@ -84,11 +84,11 @@
             </objects>
             <point key="canvasLocation" x="978" y="-442"/>
         </scene>
-        <!--Pop Up View Controller-->
+        <!--Popup View Controller-->
         <scene sceneID="ODX-P3-X1m">
             <objects>
-                <viewController id="mWX-su-c65" customClass="PopUpViewController" sceneMemberID="viewController">
-                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="N9G-hY-Hc4">
+                <viewController id="mWX-su-c65" customClass="PopupViewController" customModule="Places" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="N9G-hY-Hc4" customClass="Pop">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
