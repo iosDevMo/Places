@@ -50,6 +50,7 @@ extension PlacesViewController : UITableViewDataSource {
         let landMark = Places.shared.landmarks?[indexPath.row]
         try! realm.write {
             realm.delete(landMark!)
+            tableView.reloadData()
         }
     }
 }
